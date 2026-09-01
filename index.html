@@ -119,10 +119,10 @@ header.scrolled{background:rgba(255,255,255,.85);backdrop-filter:blur(14px);box-
   background:linear-gradient(135deg,var(--pink-400),var(--pink-600));
   display:grid;place-items:center;color:#fff;box-shadow:var(--shadow-sm);
 }
-.logo-mark svg{width:24px;height:24px;}
-.logo-text{display:flex;flex-direction:column;line-height:1.15;}
-.logo-text b{font-size:1.12rem;font-weight:800;}
-.logo-text span{font-size:.72rem;color:var(--muted);font-weight:500;}
+.-mark svg{width:24px;height:24px;}
+.-text{display:flex;flex-direction:column;line-height:1.15;}
+.-text b{font-size:1.12rem;font-weight:800;}
+.-text span{font-size:.72rem;color:var(--muted);font-weight:500;}
 nav.desktop{display:flex;gap:4px;}
 nav.desktop a{
   text-decoration:none;color:var(--ink-soft);font-weight:600;font-size:.96rem;
@@ -360,7 +360,7 @@ nav.desktop a:hover{color:var(--pink-600);background:var(--pink-50);}
 /* ===== Footer ===== */
 footer{background:#24191d;color:rgba(255,255,255,.75);padding:60px 0 40px;}
 .foot-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1.4fr;gap:32px;padding-bottom:32px;border-bottom:1px solid rgba(255,255,255,.1);}
-.foot-brand .logo{color:#fff;margin-bottom:14px;}
+.foot-brand .{color:#fff;margin-bottom:14px;}
 .foot-brand p{font-size:.92rem;}
 .foot h4{color:#fff;margin-bottom:16px;font-size:1rem;}
 .foot a{display:block;color:rgba(255,255,255,.7);text-decoration:none;font-size:.9rem;padding:4px 0;transition:color .25s;}
@@ -441,10 +441,7 @@ footer{background:#24191d;color:rgba(255,255,255,.75);padding:60px 0 40px;}
 <header id="header">
   <div class="container">
     <div class="nav-wrap">
-      <a href="#home" class="logo">
-        <span class="logo-mark">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3c1.5 2.6 4.5 4 8 4 0 5-3 9-8 11-5-2-8-6-8-11 3.5 0 6.5-1.4 8-4z"/><path d="M12 7c.6 1.8 2.2 2.6 4 2.6"/></svg>
-        </span>
+      <a href="#home" class="">
         <span class="logo-text">
           <b>دنتال كير</b>
           <span>رعاية أسنان متخصصة</span>
